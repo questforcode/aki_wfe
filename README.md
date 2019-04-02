@@ -1,6 +1,6 @@
 # aki_wfe
 
-![futaba](https://vignette.wikia.nocookie.net/megamitensei/images/d/df/PQ2_Futaba_Sakura.png/revision/latest/scale-to-width-down/600?cb=20180901214125)
+![futaba](https://vignette.wikia.nocookie.net/megamitensei/images/d/df/PQ2_Futaba_Sakura.png/revision/latest/scale-to-width-down/300?cb=20180901214125)
 
 ## Description 
 
