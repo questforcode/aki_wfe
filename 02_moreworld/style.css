@@ -1,0 +1,18 @@
+/* https://meyerweb.com/eric/tools/css/reset/ Use the CSS reset for full control of the CSS style
+and not be held back by the browser. Put it in a separate style sheet.*/
+
+body {
+    background-color: peachpuff;
+}
+
+h1 {
+    color: coral;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+p {
+    color: gray;
+    font-family: Verdana;
+    font-size: 13px;
+}

@@ -9,5 +9,5 @@ This is my **Web Front End** development project and learning process repository
 ## Projects
 
 - project 1: hello world [first HTML basics]
-- _[to be continued]_
+- project 2: more world [part two of basics]
 
