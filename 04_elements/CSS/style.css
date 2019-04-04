@@ -1,0 +1,35 @@
+body {
+    background-color: aliceblue;
+}
+
+nav {
+    color: grey;
+    font-family: Candara;
+    font-size: 15px;
+
+}
+
+h1 {
+    color: darkkhaki;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+h2 {
+    color: darkslategray;
+    font-family: Candara;
+    font-size: 20px;
+}
+
+h3 {
+    color: grey;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+p,
+li {
+    color: black;
+    font-family: Calibri;
+    font-size: 14px;
+}
