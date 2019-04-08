@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
@@ -30,53 +31,158 @@
 <body>
 
     <header>
-        <h1>HTML Elements</h1>
-       
+        <h1 class="header">👀 HTML Elements 👀</h1>
+
         <nav>
             Metadata - Block Elements
         </nav>
     </header>
 
-    <section>
-        <h2>Metadata</h2>
+    <div class="content-wrapper">
+        <section>
+            <h2>Metadata</h2>
 
-            <p>The metadata we have learned to use are:<em > meta</em>,<em> title</em>,<em> 
-            link</em>,<em> script</em>, and<em> style</em>. They are all explained inside
-            the comments of the head.</p>
-    </section>
-    
-    <section>
-        <h2>Block Elements</h2>
+            <p>The metadata we have learned to use are:<em> meta</em>,<em> title</em>,<em>
+                    link</em>,<em> script</em>, and<em> style</em>. They are all explained inside
+                the comments of the head.</p>
+        </section>
 
-            <h3>Section</h3>
+        <section>
+            <h2>Block Elements</h2>
 
-                <p>The elements that are reflected in the web page's outline, just like 
-                the chapter titles of a book.</p>
-                <p>Before HTML5, these elements were the <em>body</em> and <em>headings</em>.
-                This was an implicit sectioning. However, in HTML five, we have new semantic elements.
-                These explicit sections are: <em>section</em>, <em>header</em>, <em>footer</em>,
-                <em>nav</em>, <em>article</em> and <em>aside</em>. We can organize as we want.</p>
+            <div>
+
+                <h3>Sectioning</h3>
+
+                <p>The elements that are reflected in the web page's outline, just like
+                    the chapter titles of a book.</p>
+                <p>Before <abbr title="Hyper Text Markup Language"> HTML5</abbr>, these elements were the <em>body</em>
+                    and <em>headings</em>.
+                    This was an implicit sectioning. However, in HTML five, we have new semantic elements.
+                    These explicit sections are: <em>section</em>, <em>header</em>, <em>footer</em>,
+                    <em>nav</em>, <em>article</em> and <em>aside</em>. We can organize as we want.</p>
 
                 <ul>
                     <li>section: very specific section defined by the user;</li>
                     <li>header: exactly what the name says, there can be as many as needed
-                    but only one per section;</li>
+                        but only one per section;</li>
                     <li>footer: exactly what the name says, there can be as many as needed
-                    but only one per section;</li>
+                        but only one per section;</li>
                     <li>nav: a special section that allows us to establish navigational
-                    elements such as menus;</li>
+                        elements such as menus;</li>
                     <li>article: sections you consider interesting independently, like blogs;</li>
                     <li>aside: side information, newsletter stuff, extras etc.</li>
                 </ul>
-                
-            <h3>Grouping</h3>
+            </div>
 
-                <p>The elements that are not reflected in the web page's outline, like the 
-                contents of a chapter in a book.</p>
-    </section>
+            <div>
+                <h3>Grouping</h3>
 
-    <footer>
-            <p>Author - Navi</p>
-    </footer>
+                <p>The elements that are not reflected in the web page's outline, like the
+                    contents of a chapter in a book.</p>
+
+                <ul>
+                    <li>p: pragraphs, literally what it says;</li>
+                    <li>pre: already formatted paragraphs, respects the format you give it in the code;</li>
+                    <li>blockquote: a quoted paragraph, avoid plagiarim you doofus. indents by default. attribute cite
+                        to link the source of the quote, and att title to name it;</li>
+                    <!--use either title or cite as attributes, or cite as a tag inside a footer
+                        you can also write headers inside the blockquotes. use classes to differentiate
+                        if you don't want it recognized as an h tag in the structure.-->
+                    <blockquote>
+                        <p class="header">Fancy!</p>
+                        Look at this, it is a cool blockquote!
+                    </blockquote>
+                    <li>ul: unordered list, appearing by unnumbered symbols;</li>
+                    <li>ol: ordered list, appearing by numbers/ order choice;</li>
+                    <!--&gt;li*n-->
+                    <li>dl: definition list, they don't have items, they have item pairs (definitions and terms)
+                        dt: term, dd: definition. not much in use;</li>
+                    <li>div: a neutral block. helps with categorizing things in classes and ids for
+                        later use during CSS. full freedom and almost always has a class;
+                    </li>
+                    <li>address: an html5 new block. a special type of paragraph that are used for author data /
+                        address;
+                    </li>
+                    <li>main: an html5 new block.[tbc]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Inline Elements</h2>
+
+            <div>
+                <h3>Hyperlinks</h3>
+                <p>They correspond to the 'a' tag with the attribute href to indicate the url.
+                    There are several types of URL.
+                </p>
+                <ul>
+                    <li>absolute: an absolute url is the kind that already exists on the web,
+                        http://, <a href="https://www.w3c.es/" target="_blank" rel="external"> example</a>;</li>
+                    <li>relative to origin:</li>
+                    <li>relative to document:</li>
+                    <li>internal:</li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h3>Text Level</h3>
+                <ul>
+                    <li>span: neutral inline element, an inline div.</li>
+                    <li>strong, em, sup, sub, small: clearly semantic elements;</li>
+                    <li>b, i, u, s: bold, italics, underline and strike, new semantic value elements
+                        from old html code, they're for aesthetics, better use CSS;</li>
+                    <li>samp, code, kbd, var, dfn, abbr: sample, code, keyboard, variables, definition,
+                        abbrreviation (marks abbreviations), technical type elements, mostly used on technical website;
+                    </li>
+                    <li>q, cite: quote <q cite="google.com">(in-line blockquote)</q>, a cite / reference;</li>
+                    <li>time, mark: rare use tags. time is a metadata. example below. mark is a highlighter;</li>
+                    <!-- <time datetime="2019-10-29">My birthday!</time> -->
+                </ul>
+
+            </div>
+
+            <div>
+                <h3>Embed and multimedia</h3>
+
+                <p>Multimedia elements are self explanatory. They can come either from internal or from external
+                    sources.
+                </p>
+
+                <ul>
+                    <li>img (jpg, gif, png, svg): images and pictures that are in the web page;</li>
+                    <li>video and audio (mp4, ogg, webm, mp3): video and audio flies;</li>
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Forms in HTML</h3>
+
+                <p>Forms are 'interactive' parts of your website where you can ask your users to input some
+                    data that will be sent to you. Examples are a survey, login pages, etc.</p>
+
+                <ul>
+                    <li>input - text:</li>
+                    <li>textarea:</li>
+                    <li>checkbox:</li>
+                    <li>radio button:</li>
+                    <li>select - options:</li>
+                    <li>buttons:</li>
+                </ul>
+
+            </div>
+
+
+        </section>
+    </div>
+
+    <address>
+        <p>Author - Navi</p>
+    </address>
 </body>
+
 </html>

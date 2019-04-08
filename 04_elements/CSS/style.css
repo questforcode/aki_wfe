@@ -9,7 +9,7 @@ nav {
 
 }
 
-h1 {
+.header {
     color: darkkhaki;
     font-family: Verdana;
     font-size: 20px;
@@ -32,4 +32,9 @@ li {
     color: black;
     font-family: Calibri;
     font-size: 14px;
+}
+
+.content-wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
