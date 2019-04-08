@@ -34,7 +34,12 @@
         <h1 class="header">👀 HTML Elements 👀</h1>
 
         <nav>
-            Metadata - Block Elements
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#blocks">Block Elements</a></li>
+                <li><a href="#inline">Inline Elements</a></li>
+                <li><a href="./mmedia.html">Multimedia</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -47,7 +52,7 @@
                 the comments of the head.</p>
         </section>
 
-        <section>
+        <section id="blocks">
             <h2>Block Elements</h2>
 
             <div>
@@ -109,7 +114,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="inline">
             <h2>Inline Elements</h2>
 
             <div>
@@ -120,9 +125,11 @@
                 <ul>
                     <li>absolute: an absolute url is the kind that already exists on the web,
                         http://, <a href="https://www.w3c.es/" target="_blank" rel="external"> example</a>;</li>
-                    <li>relative to origin:</li>
-                    <li>relative to document:</li>
-                    <li>internal:</li>
+                    <li>relative to origin: all internal web page links. can give trouble if origin is changed;</li>
+                    <li>relative to document: all internal web page links.better use, does not give trouble. ./ start
+                        reading from the document where you are. ;</li>
+                    <li>internal: move inside the same page. for that, use # and the name of the id given to the
+                        content. </li>
                 </ul>
 
             </div>
@@ -143,39 +150,6 @@
                 </ul>
 
             </div>
-
-            <div>
-                <h3>Embed and multimedia</h3>
-
-                <p>Multimedia elements are self explanatory. They can come either from internal or from external
-                    sources.
-                </p>
-
-                <ul>
-                    <li>img (jpg, gif, png, svg): images and pictures that are in the web page;</li>
-                    <li>video and audio (mp4, ogg, webm, mp3): video and audio flies;</li>
-                </ul>
-
-            </div>
-
-            <div>
-
-                <h3>Forms in HTML</h3>
-
-                <p>Forms are 'interactive' parts of your website where you can ask your users to input some
-                    data that will be sent to you. Examples are a survey, login pages, etc.</p>
-
-                <ul>
-                    <li>input - text:</li>
-                    <li>textarea:</li>
-                    <li>checkbox:</li>
-                    <li>radio button:</li>
-                    <li>select - options:</li>
-                    <li>buttons:</li>
-                </ul>
-
-            </div>
-
 
         </section>
     </div>
