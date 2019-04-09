@@ -3,9 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./CSS/style.css">
+    <script>
+        console.log('Hello World')
+    </script>
+    <script src="./JS/script.js"></script>
 
     <title>Multimedia</title>
 </head>
@@ -20,13 +24,84 @@
                 <li><a href="./index.html#blocks">Block Elements</a></li>
                 <li><a href="./index.html#inline">Inline Elements</a></li>
                 <li><a href="#">Multimedia</a></li>
+                <li><a href="./form.html">HTML Forms</a></li>
             </ul>
         </nav>
     </header>
+    <div class="content-wrapper">
+        <section>
+            <h2>Embed Multimedia Elements</h2>
 
-    <section class="content-wrapper">
-        <h2>Multimedia</h2>
-    </section>
+            <p>We are going to see how to introduce embed elements to our web page,
+                such as images, video, audio, etc., to make our web page more dynamic
+                than with only text.
+            </p>
+            <!--To make sublists, the new list has to be inside an item, not inside
+            the original list as UL/OL can only contain List Items!-->
+
+            <ul>
+                <li>Images
+                    <ul>
+                        <li>jpg</li>
+                        <li>gif</li>
+                        <li>png</li>
+                        <li>svg</li>
+                        <!--Standard Logo File Format. vectorial graphic made out of code.-->
+                        <li>(webp)</li>
+                    </ul>
+                </li>
+                <li>Video and audio
+                    <ul>
+                        <li>mp4</li>
+                        <li>ogg</li>
+                        <li>webm</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Images</h3>
+
+            <img id="miku" src="./assets/gomiku.gif" alt="Miku is dancing!">
+            <img id="fennec" src="./assets/fennec.jpg" alt="A fennec in the sand!">
+            <img id="merlin" src="./assets/merlin.png" alt="Merlin from Fate Grand Order!">
+            <figure>
+                <img id="dante" src="./assets/dante.jpg" alt="Featuring Dante from the Devil May Cry series!">
+                <figcaption>This is Dante from the Devil May Cry Series!</figcaption>
+            </figure>
+            <img id="logo" src="./assets/logo.svg" alt="Logotype!">
+
+            <h3>Video and audio</h3>
+
+            <p>Videos can be from an external or internal source. Youtube gives you iframe.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/srK7Vj5p9Tg"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p>Internal source example with mp4.</p>
+
+            <video src="./assets/excuseme.mp4" controls></video>
+
+            <p>Example two with webm.</p>
+            <video src="./assets/Ghost_in_the_Shell_Opening.webm" controls></video>
+            <!--How to create dualsource videos so you can have extra formats.
+            <video controls>
+                <source src=./assets/Ghost_in_the_Shell_Opening.webm type="video/webm">
+                <source src=./assets/Ghost_in_the_Shell_Opening.mp4 type="video/mp4"
+            </video>-->
+
+            <p>Audio example.</p>
+            <audio src="./assets/Awkward Meeting.mp3" controls></audio>
+
+            <h3>Graphical navigation elements</h3>
+            <p>SVG can be treated as documents instead of as an image.</p>
+            <!--Good for interactive maps, associating every part of the code with JS, etc;-->
+            <embed src="./assets/logo.svg" type="image/svg+xml">
+
+
+        </section>
+    </div>
+    <aside>
+        <p>Publicidad.</p>
+    </aside>
 
     <address>
         <p>Author - Navi</p>

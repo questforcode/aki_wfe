@@ -38,3 +38,33 @@ li {
     margin-left: 2rem;
     margin-right: 2rem;
 }
+
+#miku {
+    width: 26%;
+}
+
+#fennec {
+    width: 40%;
+}
+
+#merlin {
+    width: 26%;
+}
+
+#dante {
+    width: 27%;
+}
+
+#logo,
+embed {
+    width: 25%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 100%;
+}

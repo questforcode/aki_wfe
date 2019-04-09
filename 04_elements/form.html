@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Aki or Navi">
+    <meta name="description" content="An exercise for the WFE Class.">
+    <meta name="keywords" content="exercise, web front end, potatoes">
+    <meta name="generator" content="Visual Studio Code">
+
+    <!-- style, structure, script coding usually go each in their separate folders, just like assets
+    just like the examples below -->
+
+    <!-- <style></style> Add CSS in the HTML file.-->
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- <script></script> Add JS in the HTML file. -->
+    <script>
+        console.log('Hello World')
+    </script>
+    <script src="./JS/script.js"></script>
+
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header">👀 HTML Forms 👀</h1>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#blocks">Block Elements</a></li>
+                <li><a href="./index.html#inline">Inline Elements</a></li>
+                <li><a href="./mmedia.html">Multimedia</a></li>
+                <li><a href="#">HTML Forms</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <section>
+            <h2>Forms</h2>
+            <p>The following controls are available when it comes to making forms:</p>
+
+            <ul>
+                <li>input - text : a box for inputing text, like usernames, passwords, etc;</li>
+                <li>textarea: bigger text input areas;</li>
+                <li>checkbox: boxes to check options (boolean so true or false);</li>
+                <li>radiobutton: multiple option check boxes;</li>
+                <li>select / options: dropdown list</li>
+                <li>buttons: send buttons, stuff like that, etc. sends everything;</li>
+            </ul>
+            <h3>Form examples</h3>
+            <!--form action and form get is the exact same thing-->
+            <!--POST is a secure form that does not use query. example.-->
+            <form action="https://jsonplaceholder.typicode.com/users" method="POST">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="password" name="password" id="password">
+                <button type="submit">Send</button>
+
+            </form>
+        </section>
+
+    </div>
+
+    <aside>
+        <p>Publicidad.</p>
+    </aside>
+
+    <address>
+        <p>Author - Navi</p>
+    </address>
+
+
+</body>
+
+</html>
