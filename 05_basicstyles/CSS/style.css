@@ -1,0 +1,44 @@
+/*This is the tag selector, simply writing the tag without anything before it.
+grouping is optional if we want to!*/
+h1,
+h2 {
+    color: rgb(238, 200, 167);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: gray;
+}
+
+/*This is the id selector, simply writing # before the name of the id.
+Good practice: not using id selectors in css, save it for javascript.*/
+#intro {
+    color: coral;
+}
+
+/*This is the class selector, simply writing a . before the name of the class.*/
+.highlight {
+    color: crimson;
+}
+
+input {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/*This is the attribute selector, simply writing [] around the text. use " to specify
+they aren't used too often.*/
+[name="name"] {
+    background-color: bisque;
+}
+
+[required] {
+    border-color: crimson;
+}
