@@ -68,3 +68,15 @@ figure {
 video {
     width: 100%;
 }
+.form {
+    display: block;
+    margin: 0.5rem;
+}
+
+#field {
+    width: 40%;
+}
+
+button {
+    margin-top: 0.5rem;
+}

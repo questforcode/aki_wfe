@@ -59,10 +59,66 @@
             <h3>Form examples</h3>
             <!--form action and form get is the exact same thing-->
             <!--POST is a secure form that does not use query. example.-->
+            <!--you can use div, p or list to create blocks for each inline input as well, 
+                other than css.-->
             <form action="https://jsonplaceholder.typicode.com/users" method="POST">
-                <input type="text" name="name" id="name" placeholder="Name">
-                <input type="password" name="password" id="password">
+
+                <fieldset id="field">
+                    <legend>Personal Data</legend>
+
+                    <!-- <label for="ID">LABEL NAME</label>  autoselects-->
+                    <input type="text" name="name" id="name" placeholder="Name" class="form" required minlength="3">
+                    <input type="email" name="email" id="email" placeholder="E-mail" class="form" required>
+                    <input type="password" name="password" id="password" placeholder="Password" 
+                    class="form" required maxlength="15" minlength="8"> 
+                    <!--pattern="add necessary patterns to inputs"-->
+                    <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Leave your opnion here!"
+                        class="form" maxlength="1500"></textarea>
+                </fieldset>
+
+                <fieldset id="field">
+                    <legend>Conditions</legend>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem non rerum debitis libero adipisci
+                        dicta ad expedita inventore eaque, sapiente quas hic, ratione minus natus numquam? Facere
+                        asperiores
+                        optio consectetur?</p>
+
+                    <label for="checkbox">I accept the terms and conditions.</label>
+                    <input type="checkbox" name="checkbox" id="checkbox" required>
+                </fieldset>
+
+                <fieldset id="field">
+                    <legend>Course Data</legend>
+                    <p>Select the course that you want to study from our 'big' variety.</p>
+
+                    <select name="course" id="course" class="form" required>
+                        <option value="">Pick a Course!</option>
+
+                        <!--opt group is created to separate the options inside a select-->
+                        <optgroup label="Front End">
+                            <option value="01_HTML">HTML</option>
+                            <option value="02_CSS">CSS</option>
+                            <option value="03_JS">JavaScript</option>
+                        </optgroup>
+
+                        <optgroup label="Back End">
+                            <option value="04_JAVA">Java</option>
+                            <option value="05_NODEJS">NodeJS</option>
+                        </optgroup>
+
+                    </select>
+
+                    <p>Select which school is closer to you.</p>
+                    <label for="madrid">Madrid</label>
+                    <input type="radio" name="school" id="madrid" value="01md" class="form" required>
+                    <label for="barcelona">Barcelona</label>
+                    <input type="radio" name="school" id="barcelona"value="02bn" class="form" >
+                    <label for="valencia">Valencia</label>
+                    <input type="radio" name="school" id="valencia" value="03vl" class="form">
+                </fieldset>
+
                 <button type="submit">Send</button>
+                <button type="reset">Reset</button>
 
             </form>
         </section>
