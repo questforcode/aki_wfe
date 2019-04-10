@@ -1,0 +1,24 @@
+/* The space means 'descendant of', so it picks only p in the section area. */
+
+section p {
+    color: cornflowerblue;
+}
+
+/*The > means 'child of', so it picks up only direct children.*/
+
+section > p {
+    color: darksalmon;
+}
+
+/*The ~ means 'sibling of', so it picks up siblings of the mentioned element.
+the following siblings!*/
+
+div~p {
+    color: deepskyblue;
+}
+
+/*The means + 'adjacent sibling of', it is the first sibling*/
+
+div+p {
+    color: rgb(153, 153, 202);
+}
