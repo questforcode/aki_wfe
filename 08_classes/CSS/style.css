@@ -1,0 +1,33 @@
+/*mini body reset*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainheader {
+    background-color: rgb(63, 94, 63);
+    padding: 2rem;
+    color: bisque;
+}
+
+.mainheader p {
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.mainfooter {
+    background-color: rgb(63, 94, 63);
+    color: bisque;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.content-wrapper {
+    margin: 2rem;
+}
