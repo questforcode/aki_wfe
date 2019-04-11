@@ -1,0 +1,17 @@
+section {
+    font-size: 0.9em;
+}
+
+div {
+    font-size: 0.9em;
+}
+
+/*browser size standard is 16px
+pixels are absolute values and for accessibility reasons they shouldnt be used*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem; 
+    /* font-size: 12px; */
+}
+
+/*ems are proportional to the parent and not stable. rems reach to the root.*/
