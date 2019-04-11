@@ -17,3 +17,4 @@ This is my **Web Front End** development project and learning process repository
 - project 7: css nesting [doing some fancy nesting]
 - project 8: classes [using classes in css]
 - project 9: pseudo [learning pseudo selectors and others]
+- project 10: specified [css specificity]
