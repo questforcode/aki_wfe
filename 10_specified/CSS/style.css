@@ -1,0 +1,8 @@
+/*equal the specificity to overrride first css
+bigger specificity takes the lead regardless of order
+inline comments have super specifity and you can't override them easily
+only important modifier overrides it. last last last option*/
+p.highlight {
+    background-color: pink;
+
+}
