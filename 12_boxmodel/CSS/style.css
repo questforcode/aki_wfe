@@ -1,0 +1,41 @@
+/*border box: im applying modifications to the border towards inside of an element*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*display inline block can be substituted by width with float*/
+.squares p {
+    width: 18%;
+    float: left;
+    margin: calc(calc(100% - calc(18%*5)) / 10);
+    padding: 1rem;
+    background-color: rgb(159, 207, 159);
+/*     border: 1px solid;
+    border-color: rgb(106, 129, 106); */
+    /*display: inline-block;*/
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.real {
+    margin: 2rem;
+    }
+
+.real p {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.real p:not(:first-child) {
+    padding-left: 1rem;
+}
+
+/*list style for list styling*/
