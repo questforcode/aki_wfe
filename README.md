@@ -18,3 +18,4 @@ This is my **Web Front End** development project and learning process repository
 - project 8: classes [using classes in css]
 - project 9: pseudo [learning pseudo selectors and others]
 - project 10: specified [css specificity]
+- project 11: variables [playing a bit with variables in css / js]
