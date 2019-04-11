@@ -1,0 +1,61 @@
+/* The code recognizes what the first letter of p or any other thing is; it is self defined so we can call to it. */
+section p::first-letter {
+    font-size: 1.5rem;
+    color: turquoise;
+}
+
+aside p::first-line {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* before and after: inject aesthetic elements through css */
+section div p::before {
+    content : "!!"
+}
+
+/*pseudoclasses. contextual classes depending on the state or using interaction*/
+
+p:hover {
+    color: lightcoral;
+}
+
+a,
+a:visited {
+    color: blue;
+}
+
+/*positioning pseudoclasses*/
+/* for this example, the first child that is also a paragraph in the section will be painted plum */
+
+section p:nth-child(1) {
+    color: plum;
+} 
+
+/*type asks for the firest type of the specified kind, not any first child
+section p:nth-of-type(1) {
+    color: plum;
+}*/
+
+
+/*universal selector. there are properties that get inherited, and some that don't. the * ignores it..
+for example, font is inherited, border isnt. using * instead of body would give a border to everyone
+instead of the body overall.*/
+
+/* * {
+    display: inline;
+} */
+
+body {
+    font-family: 'Calibri', sans-serif;
+    border: 1px solid;
+    padding: 1rem;
+}
+
+header {
+    font-family: 'Arapey', serif
+}
+
+/*not is a pseudoclass that allows me to choose which elements of a certain selection SHOULDNT be applied
+a certain style.*/
+
