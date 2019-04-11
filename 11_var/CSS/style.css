@@ -1,0 +1,40 @@
+/*homogenously define my web page characteristics. things im interested in keeping as a variable.*/
+:root {
+    --background-color: rgb(97, 48, 48);
+    --font-color: rgb(190, 175, 157);
+    --base-margin: 2rem;
+}
+
+/*mini body reset*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainheader {
+    background-color: var(--background-color);
+    padding: 2rem;
+    color: var(--font-color);
+}
+
+.mainheader p {
+    margin-bottom: 0;
+    margin-top: calc(var(--base-margin) / 10);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.mainfooter {
+    background-color: var(--background-color);
+    color:var(--font-color);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.content-wrapper {
+    margin: var(--base-margin);
+}
