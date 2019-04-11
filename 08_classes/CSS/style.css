@@ -5,7 +5,7 @@ body {
 }
 
 .mainheader {
-    background-color: rgb(63, 94, 63);
+    background-color:rgb(105, 28, 28);
     padding: 2rem;
     color: bisque;
 }
@@ -21,7 +21,7 @@ h1 {
 }
 
 .mainfooter {
-    background-color: rgb(63, 94, 63);
+    background-color:rgb(105, 28, 28);
     color: bisque;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
