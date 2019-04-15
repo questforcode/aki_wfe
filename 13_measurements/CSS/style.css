@@ -17,3 +17,9 @@ p {
 }
 
 /*ems are proportional to the parent and not stable. rems reach to the root.*/
+
+.effect:hover .target {
+    color: blueviolet;
+}
+
+/*cannot have child elements affect the behavior of its parent element(s)*/
