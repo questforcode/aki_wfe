@@ -22,4 +22,4 @@ This is my **Web Front End** development project and learning process repository
 - project 12: box model [understanding the box model in css]
 - project 13: measurements [understanding sizes and measurements]
 - project 14: positions [positioning elements using css]
-- project 15: menus [messing around a bit with menus, and icon fonts]
+- project 15: menus [messing around a bit with menus, and icon fonts, some layout manipulation]
