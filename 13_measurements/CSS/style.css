@@ -1,5 +1,12 @@
+/*viewport height (vh) and viewport weight (wh). this can cause an overflow problem.*/
 section {
     font-size: 0.9em;
+    background-color: rgb(187, 206, 170);
+    width: 50%;
+    min-height: 80vh;
+    /* height: 80vh;
+    overflow:scroll; */
+
 }
 
 div {
@@ -12,14 +19,9 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem; 
     /* font-size: 12px; */
-    padding: 2rem;
+    padding: 1rem;
     /*padding: 2em;*/
 }
 
 /*ems are proportional to the parent and not stable. rems reach to the root.*/
-
-.effect:hover .target {
-    color: blueviolet;
-}
-
 /*cannot have child elements affect the behavior of its parent element(s)*/
