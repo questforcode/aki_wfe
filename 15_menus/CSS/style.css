@@ -64,9 +64,6 @@ h1 {
     position: absolute;
     top: 1rem;
     right: 1rem;
-}
-
-.mainmenu {
     border: 1px solid;
     border-radius: 5px;
     width: fit-content;
