@@ -1,0 +1,37 @@
+/*avoid pixelating smaller images*/
+img {
+    width: fit-content;
+    max-width: 100%;
+}
+
+/*wrapping the image in a div to facilitate changing size*/
+.image-wrapper-50 {
+    width: 50%;
+    float: left;
+    margin-right: 1rem;
+}
+/*sometimes its good to have 2-3 picture sizes picked and have them classified.*/
+
+.clearfix {
+    border-top: 1px solid gray;
+    clear: both;
+    margin: 1rem;
+}
+
+.background {
+    height: 100vh;
+    padding: 1.5rem;
+    background-color: #7594AE;
+    background-image: url("../assets/ffxiv2.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100%;    */
+    /*background-size: contain; respect proportions but don't cover everything*/
+    /*background-size: cover; respect proportions and covers everything*/
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+#background-image h2 {
+    text-align: center;
+    padding-top: 30vh;
+}
