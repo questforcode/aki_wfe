@@ -23,3 +23,5 @@ This is my **Web Front End** development project and learning process repository
 - project 13: measurements [understanding sizes and measurements]
 - project 14: positions [positioning elements using css]
 - project 15: menus [messing around a bit with menus, and icon fonts, some layout manipulation]
+- project 16: images [working with images in CSS]
+- project 17: holy grail and HTML table [messing with the holy grail of layouts, how to make things adjust in height]
