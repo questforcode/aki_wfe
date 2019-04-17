@@ -1,0 +1,31 @@
+section {
+    display: flex;
+}
+
+
+/*transitions are defined in the origin*/
+a {
+    display: block;
+    padding: 1rem;
+    border: 1px solid coral;
+    color: orangered;
+    background-color: rgb(238, 189, 143);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+div {
+    width: 0%;
+    transition-property: all;
+    transition-duration: 40ms;
+    transition-delay: 40ms;
+    transition-timing-function: ease-out;
+}
+a:hover+div {
+    /* color: black; */
+    background-color: gray;
+    /* font-size: 4rem; */
+    transform: scale(2.6);
+    width:20%;
+}
