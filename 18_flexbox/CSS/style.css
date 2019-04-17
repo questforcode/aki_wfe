@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+/*properties of flex: direction, wrap (adjust to lines), justify content, 
+aligh items, and align content*/
+section.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*main axis adjusting*/
+    justify-content: center;
+
+    /*secondary axis adjusting. stretch is default*/
+    align-items: flex-start;
+
+    /*line adjusting. less used.*/
+    align-content: flex-end;
+
+    border: 1px double gainsboro;
+    height: 60vh;
+    /*paragraphs usually denominate the height, this is just for this exercise*/
+}
+
+p.item {
+    padding: 1rem;
+    background-color: rgb(221, 202, 209);
+    border: 1px solid;
+    margin: 1rem 0rem;
+}
+
+p.item:nth-child(4) {
+    padding: 2rem 1rem;
+    font-size: 3rem;
+    order: -1;
+}
