@@ -28,3 +28,4 @@ This is my **Web Front End** development project and learning process repository
 - project 18 - flexbox [leraning how to use the flex display]
 - project 19 - holy flex [fixing the holy grail problem with flex]
 - project 20 - responsive [responsive web design]
+- project 21 - dynamic [trying out dynamic css like transitions, transformations, animations]
