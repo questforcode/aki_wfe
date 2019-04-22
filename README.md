@@ -29,3 +29,10 @@ This is my **Web Front End** development project and learning process repository
 - project 19 - holy flex [fixing the holy grail problem with flex]
 - project 20 - responsive [responsive web design]
 - project 21 - dynamic [trying out dynamic css like transitions, transformations, animations]
+
+## JavaScript Only Projects
+
+- project 1 - hello world [hello world in javascript]
+- project 2 - variables [understanding variables]
+- project 3 - functions [understanding how functions work]
+- project 4 - scope [the scopes of variables]
