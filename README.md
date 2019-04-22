@@ -6,7 +6,7 @@
 
 This is my **Web Front End** development project and learning process repository. Feel free to look through it, I suppose, if you find anything of worth here. I'm going to become a god of coding someday, or something, but don't expect that to happen anytime soon 😂.
 
-## Projects
+## HTML and CSS Projects
 
 - project 1: hello world [first HTML basics]
 - project 2: more world [part two of basics]
@@ -36,3 +36,5 @@ This is my **Web Front End** development project and learning process repository
 - project 2 - variables [understanding variables]
 - project 3 - functions [understanding how functions work]
 - project 4 - scope [the scopes of variables]
+- project 5 - constants [understanding constants in js]
+- project 6 - references [working with references in JS]
