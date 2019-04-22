@@ -1,0 +1,12 @@
+section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper {
+    background-color: bisque;
+    padding: 0.5rem;
+    text-align: center;
+}
