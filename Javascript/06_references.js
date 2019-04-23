@@ -18,10 +18,21 @@ let user = {
     age : 22
 }
 
-signUp(user)
+let user2 = {
+    name : 'Navi', 
+}
+
+signUp(user, 'HTML')
 console.log(user)
+signUp (user2)
+console.log(user2)
 
 //duplicate the reference, but just one object. 
 function signUp(obj) {
     obj.course = 'JavaScript'
 }
+
+function signUp(obj, curso ='JavaScript') {
+    obj.curso = curso
+}
+//Here, JavaScript is the value by default. 
