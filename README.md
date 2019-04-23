@@ -38,3 +38,5 @@ This is my **Web Front End** development project and learning process repository
 - project 4 - scope [the scopes of variables]
 - project 5 - constants [understanding constants in js]
 - project 6 - references [working with references in JS]
+- project 7 - casting [understanding how casting and forced casting works]
+- project 8 - booleans [messing around with booleans, true and false]
