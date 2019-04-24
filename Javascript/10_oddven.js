@@ -19,10 +19,25 @@ World` */
  * Possible values:
  *     0 - even
  *     1 - odd
+ * Generates exceptions if the parameter isn't a number.
+ *     2 - decimal
+ *     3 - not a number
  */
 
 function calculateWhatIs(num) {
-    return num % 2
+    let r
+    if (isNaN(num) || Array.isArray(num) || typeof num === 'boolean') {
+        //not a number
+        r = 3
+    } else if (parseInt(num) != num) {
+        //a decimal number.
+        r = 2
+    }
+
+    else {
+        r = num % 2
+    }
+    return r
 }
 
 /**
@@ -36,6 +51,11 @@ function calculateWhatIs(num) {
  */
 
 function isEven(num) {
+    if (isNaN(num) || Array.isArray(num) || typeof num === 'boolean') {
+        throw 3
+    } else if (parseInt(num) != num) {
+        throw 2
+    }
     return !(num % 2)
 }
 
@@ -59,21 +79,25 @@ function show(isEven, num) {
     }
 } */
 
-function show(isEven, num) {
-    let messages = [
+function show(num) {
+    let message = [
         `The number ${num} is even.`,
-        `The number ${num} is odd.`
-    ]
-    let i = 1
-    if (isEven) {
-        i = 0
+        `The number ${num} is odd.`,
+        `The number ${num} is decimal.`,
+        `${num} Isn't a  number.`
+    ] 
+    let i
+    try {
+        i = (isEven(num)) ? 0 : 1
+    } catch (error) {
+        console.log(error)
+        i = error
     }
-    console.log(messages[i])
+    console.log(message[i])
 }
 
-let num = 23
-num = 28
-show(isEven(num), (num))
+let num = 5
+show(num)
 
 ///////////////////////////////////////////
 //Final Version.
@@ -85,14 +109,34 @@ show(isEven(num), (num))
  */
 
 let num2 = 30
+num2 = 45.6
 function show2(code, num2) {
     let messages = [
         `The number ${num2} is even.`,
-        `The number ${num2} is odd.`
+        `The number ${num2} is odd.`,
+        `The number ${num2} is decimal.`,
+        `${num2} Isn't a  number.`
     ]
     console.log(messages[code])
 }
 
-show2(calculateWhatIs(num2 % 2), num2)
+show2(calculateWhatIs(num2), num2)
 
 //Error control!
+
+/**
+ * Addenums to calculateWhatis. check it up.
+ * 2 - decimals
+ * 3 - non-numbers
+ */
+
+//Error control. Check isEven.
+/* try {
+    //notReal()
+    throw 'Trialing an error.'  //Generate our own errors.
+} catch (error) {
+    console.log('Sorry, not working.', error)
+}
+
+
+ */
