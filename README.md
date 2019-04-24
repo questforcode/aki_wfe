@@ -41,3 +41,4 @@ This is my **Web Front End** development project and learning process repository
 - project 7 - casting [understanding how casting and forced casting works]
 - project 8 - booleans [messing around with booleans, true and false]
 - project 9 - operators [i feel like i'm in HS again]
+- project 10 - even and odds [creating a program that tells me what a number is]
