@@ -74,3 +74,14 @@ let message = [
 ]
 
 console.log(message [i])
+
+/* Logical Operators
+&& - and
+|| - or
+! - not */
+
+/* let x = 23
+!x  */
+//! turns it into boolean. !! is true (double negation).
+
+//(var1 && var2) || var3. anything between parentheses is valued first. var1 && (var2 || var3), etc.
