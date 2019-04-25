@@ -45,3 +45,5 @@ This is my **Web Front End** development project and learning process repository
 - project 11 - switch [learning the conditional switch, and some system functions.]
 - project 12 - factorials [learning loops through a factorial]
 - project 13 - arrays [understanding the relationship between arrays and loops]
+- project 14 - statistics [making a program that calculates means]
+- project 15 - primes [making a program that brings up the list of prime numbers from 1-n]
