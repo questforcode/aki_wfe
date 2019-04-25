@@ -47,3 +47,4 @@ This is my **Web Front End** development project and learning process repository
 - project 13 - arrays [understanding the relationship between arrays and loops]
 - project 14 - statistics [making a program that calculates means]
 - project 15 - primes [making a program that brings up the list of prime numbers from 1-n]
+- project 16 - fibonacci[homework to create a function that gives me the fibonacci series]
