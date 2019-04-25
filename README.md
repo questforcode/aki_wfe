@@ -44,3 +44,4 @@ This is my **Web Front End** development project and learning process repository
 - project 10 - even and odds [creating a program that tells me what a number is. Try-catch functionality.]
 - project 11 - switch [learning the conditional switch, and some system functions.]
 - project 12 - factorials [learning loops through a factorial]
+- project 13 - arrays [understanding the relationship between arrays and loops]
