@@ -16,4 +16,4 @@ setTimeout ( () => {
 
  //The difference between server and client time is what creates asynchrony. We have to work on it.
 
- //This is the end of JS Core.
+ //This is the end of JS Core
