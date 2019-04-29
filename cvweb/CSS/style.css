@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topofpage {
+    background-image: url(/cvweb/assets/scenery.jpg);
+    background-size: cover;
+    background-color: rgba(218, 228, 203, 0.671);
+    background-blend-mode: soft-light;
+    height: 50vh;
+}
+
+.title {
+    display: flex;
+    flex-flow: column;
+}
+
+.title h1 {
+    margin-top: 0;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 3vh;
+    margin-bottom: 0;
+    font-size: 8rem;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 1rem 1rem 2rem rgba(143, 207, 143, 0.637);
+}
+
+.title h2 {
+    margin-top: 0;
+    text-align: center;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    letter-spacing: 2rem;
+    color: white;
+    background-color: rgba(146, 146, 146, 0.527);
+    padding: 1rem;
+}
+
+.mainmenu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+
+}
+
+.mainmenu li {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    padding-top: 2.5rem;
+    margin-right: 1rem;
+    width: 25%;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1rem;
+    font-weight: lighter;
+}
+
+.image_wrapper {
+    display:flex;
+    width: 100%;
+}
+
+.image_wrapper div{
+    width: 25%;
+    height: 50vh;
+}
+
+.img1 {
+    background-image: url(/cvweb/assets/about.jpg);
+    background-size: cover;
+    background-position-x: -3rem;
+    background-color: rgba(185, 231, 185, 0.342);
+    background-blend-mode: overlay;
+}
+
+.img2 {
+    background-image: url(/cvweb/assets/skills.jpg);
+    background-size: cover;
+    background-color: rgba(185, 231, 185, 0.342);
+    background-blend-mode: overlay;
+}
+
+.img3 {
+    background-image: url(/cvweb/assets/reference.jpg);
+    background-size: cover;
+    background-position-x: -10rem;
+    background-color: rgba(185, 231, 185, 0.342);
+    background-blend-mode: overlay;
+}
+
+.img4 {
+    background-image: url(/cvweb/assets/contact.png);
+    background-size: cover;
+    background-color: rgba(185, 231, 185, 0.342);
+    background-blend-mode: overlay;
+}
+
+/* .content_wrapper {
+    display: flex;
+    position: relative;
+} */
