@@ -76,6 +76,8 @@ function fiboClass(limit) {
     return group
 }
 
+//While is an optional loop. Do while forces the loop to be readen. Firt read, and THEN check the condition.
+
 let limit = 200
 console.log(fiboClass(limit))
 
