@@ -48,3 +48,8 @@ This is my **Web Front End** development project and learning process repository
 - project 14 - statistics [making a program that calculates means]
 - project 15 - primes [making a program that brings up the list of prime numbers from 1-n]
 - project 16 - fibonacci [homework to create a function that gives me the fibonacci series. 'while'.]
+- project 17 - recursion [basic concept of recursion and what it is]
+- project 18 - functions [adding things to our knowledge of functions]
+- project 19 - callbacks [working callbacks and functions]
+- project 20 - asynchrony [introduction to the concept and the timeOut]
+- project 21 - objects [OOP in javascript]
