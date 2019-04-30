@@ -53,3 +53,7 @@ This is my **Web Front End** development project and learning process repository
 - project 19 - callbacks [working callbacks and functions]
 - project 20 - asynchrony [introduction to the concept and the timeOut]
 - project 21 - objects [OOP in javascript]
+
+## Others
+
+- cvweb - basic HTML and CSS profile for Link from Legend of Zelda.
