@@ -5,7 +5,7 @@ body {
 }
 
 .topofpage {
-    background-image: url(/cvweb/assets/scenery.jpg);
+    background-image: url(./cvweb/assets/scenery.jpg);
     background-size: cover;
     background-color: rgba(218, 228, 203, 0.671);
     background-blend-mode: soft-light;
@@ -77,7 +77,7 @@ body {
 }
 
 .img1 {
-    background-image: url(/cvweb/assets/about.jpg);
+    background-image: url(./cvweb/assets/about.jpg);
     background-size: cover;
     background-position-x: -3rem;
     background-color: rgba(185, 231, 185, 0.342);
@@ -85,14 +85,14 @@ body {
 }
 
 .img2 {
-    background-image: url(/cvweb/assets/skills.jpg);
+    background-image: url(./cvweb/assets/skills.jpg);
     background-size: cover;
     background-color: rgba(185, 231, 185, 0.342);
     background-blend-mode: overlay;
 }
 
 .img3 {
-    background-image: url(/cvweb/assets/reference.jpg);
+    background-image: url(./cvweb/assets/reference.jpg);
     background-size: cover;
     background-position-x: -10rem;
     background-color: rgba(185, 231, 185, 0.342);
@@ -100,7 +100,7 @@ body {
 }
 
 .img4 {
-    background-image: url(/cvweb/assets/contact.png);
+    background-image: url(./cvweb/assets/contact.png);
     background-size: cover;
     background-color: rgba(185, 231, 185, 0.342);
     background-blend-mode: overlay;
