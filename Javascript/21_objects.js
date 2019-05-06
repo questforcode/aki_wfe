@@ -1,11 +1,14 @@
 /**
  * Lietral Notation JSON (javascript object notation). {property : value, property : value}
  * no classes in JS (at least not necessary ones)
- * Remember objects are dynamic
+ * Remember objects are dynamic and a collection of properties. 
  */
 
  //user1 = new User
  //user2 = new User
+
+
+ //let user1 = new Object() [this is what happens in the back]
 
 let user1 = {
     name : 'Ryo',
