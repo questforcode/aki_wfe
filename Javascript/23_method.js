@@ -38,3 +38,34 @@ let flight = {
 flight.show()
 
 //Look at teacher files because I don't understand the next part. 
+
+/**
+ * @param : object
+ * @returns: string
+ */
+flight.toString = function (obj = this) {
+    let output = ''
+    for (const key in obj) {
+        const element = obj[key]
+        if (typeof element === 'function') {
+            continue
+        }
+        if (typeof element === 'object') {
+            output = output + `The property ${key} is ...` + '\n'
+            // output += `La propiedad ${key} vale ...`
+            output = output + obj.toString(element) }
+        else {
+             output = output + `The property ${key} is ${element}` + '\n'
+             //output += `La propiedad ${key} vale ${element}`
+        }
+    }
+    return output
+}
+
+flight.showFinal = function () {
+    console.log(this.toString())
+}
+
+// vuelo.mostrar()
+
+flight.showFinal()
