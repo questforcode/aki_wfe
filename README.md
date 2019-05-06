@@ -53,7 +53,7 @@ This is my **Web Front End** development project and learning process repository
 - project 19 - callbacks [working callbacks and functions]
 - project 20 - asynchrony [introduction to the concept and the timeOut]
 - project 21 - objects [OOP in javascript]
-- project 22 - flight [an exercise to write an object regarding the plane in the LOST tv show]
+- project 22 - flight [an exercise to write an object regarding the plane in the LOST tv show. object reading, callbacks, etc.]
 
 ## Others
 
