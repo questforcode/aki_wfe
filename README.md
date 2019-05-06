@@ -55,6 +55,7 @@ This is my **Web Front End** development project and learning process repository
 - project 21 - objects [OOP in javascript]
 - project 22 - flight [an exercise to write an object regarding the plane in the LOST tv show. object reading, callbacks, etc.]
 - project 23 - method [using functions as methods inside objects so the object can call itself]
+- project 24 - months [using functions as methods again, making a 'dictionary' that gives me the months in x language.]
 
 ## Others
 
