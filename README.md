@@ -57,7 +57,8 @@ This is my **Web Front End** development project and learning process repository
 - project 23 - method [using functions as methods inside objects so the object can call itself]
 - project 24 - months [using functions as methods again, making a 'dictionary' that gives me the months in x language.]
 - project 25 - wrapper [understanding the way objects and other data acts when turned to objects]
-- project 26 - exercises [wrapper homework]
+- project 26 - strings [working with string properties]
+
 ## Others
 
 - cvweb - basic HTML and CSS profile for Link from Legend of Zelda.
