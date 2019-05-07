@@ -58,7 +58,7 @@ This is my **Web Front End** development project and learning process repository
 - project 24 - months [using functions as methods again, making a 'dictionary' that gives me the months in x language.]
 - project 25 - wrapper [understanding the way objects and other data acts when turned to objects]
 - project 26 - strings [working with string properties]
-
+- project 27 - strings [same as the above but making it more purely JS]
 ## Others
 
 - cvweb - basic HTML and CSS profile for Link from Legend of Zelda.
