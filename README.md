@@ -59,6 +59,10 @@ This is my **Web Front End** development project and learning process repository
 - project 25 - wrapper [understanding the way objects and other data acts when turned to objects]
 - project 26 - strings [working with string properties]
 - project 27 - strings [same as the above but making it more purely JS]
+- project 28 - maths [looking at the math object prototype and understanding things]
+- project 29 - arrays [arrays' object properties and functionalities]
+
+
 ## Others
 
 - cvweb - basic HTML and CSS profile for Link from Legend of Zelda.
