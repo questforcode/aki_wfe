@@ -61,7 +61,8 @@ This is my **Web Front End** development project and learning process repository
 - project 27 - strings [same as the above but making it more purely JS]
 - project 28 - maths [looking at the math object prototype and understanding things]
 - project 29 - arrays [arrays' object properties and functionalities]
-
+- project 30 - palindrome [creating a program that tells me if a sentence is palindrome or not]
+- project 31 - arrays+ [split and splice in arrays]
 
 ## Others
 
