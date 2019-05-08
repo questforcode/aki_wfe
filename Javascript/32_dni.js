@@ -19,7 +19,6 @@ function isLetterValid(id = '') {
     let letter = id[id.length - 1]
     let number = id.slice(0, id.length - 1)
     number = formatNumber(number)
-
     if (letter !== calculateLetter(number)) {
         r = false
     }
@@ -47,4 +46,4 @@ function formatNumber(string = '') {
 (function () {
     let myId = '50821728R'
     console.log(isLetterValid(myId))
-})
+})()
