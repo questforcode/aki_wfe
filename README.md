@@ -63,6 +63,7 @@ This is my **Web Front End** development project and learning process repository
 - project 29 - arrays [arrays' object properties and functionalities]
 - project 30 - palindrome [creating a program that tells me if a sentence is palindrome or not]
 - project 31 - arrays+ [slice and splice in arrays]
+- project 32 - dni [checks if the letter of a spanish id number is valid]
 
 ## Others
 
