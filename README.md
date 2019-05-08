@@ -66,6 +66,7 @@ This is my **Web Front End** development project and learning process repository
 - project 32 - dni [checks if the letter of a spanish id number is valid]
 - project 33 - array callback [learning array operations and callbacks]
 - project 34 - dates [learning the date function in javascript]
+- project 35 - json [working with some json]
 
 ## Others
 
