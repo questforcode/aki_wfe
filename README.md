@@ -64,6 +64,8 @@ This is my **Web Front End** development project and learning process repository
 - project 30 - palindrome [creating a program that tells me if a sentence is palindrome or not]
 - project 31 - arrays+ [slice and splice in arrays]
 - project 32 - dni [checks if the letter of a spanish id number is valid]
+- project 33 - array callback [learning array operations and callbacks]
+- project 34 - dates [learning the date function in javascript]
 
 ## Others
 
