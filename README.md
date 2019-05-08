@@ -67,7 +67,7 @@ This is my **Web Front End** development project and learning process repository
 - project 33 - array callback [learning array operations and callbacks]
 - project 34 - dates [learning the date function in javascript]
 - project 35 - json [working with some json]
-- project 36 - method [working with methods and objects a little more]
+- project 36 - method [working with methods and objects a little more. constructive functions.]
 
 ## Others
 
