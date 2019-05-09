@@ -68,6 +68,8 @@ This is my **Web Front End** development project and learning process repository
 - project 34 - dates [learning the date function in javascript]
 - project 35 - json [working with some json]
 - project 36 - method [working with methods and objects a little more. constructive functions.]
+- project 37 - constructor [constructor functions and object relationships]
+- project 38 - inheritance [inheritance between / inside objects]
 
 ## Others
 
