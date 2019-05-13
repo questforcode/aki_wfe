@@ -76,6 +76,10 @@ This is my **Web Front End** development project and learning process repository
 - project 42 - billES& [last version of the bill exercise, using ES6 and 'classes']
 - project 43 - get and set [pseudoproperties of get and set]
 
+## Javascript Web
+
+- project 1 - hello js [first basic js in html]
+
 ## Others
 
 - cvweb - basic HTML and CSS profile for Link from Legend of Zelda.
