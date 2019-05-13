@@ -7,3 +7,11 @@ function clickMe() {
 function goAway () {
     console.log('This stubborness makes absolutely no sense.')
 }
+
+function onMouseOver () {
+    console.log('The mouse is in!')
+}
+
+function onMouseOut () {
+    console.log('The mouse is out!')
+}
