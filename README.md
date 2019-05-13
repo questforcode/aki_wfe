@@ -74,6 +74,7 @@ This is my **Web Front End** development project and learning process repository
 - project 40 - bill [a big exercise where we have a bill. final basics exercise.]
 - project 41 - bill+ [redoing exercise but with constructor functions and simplifying our work]
 - project 42 - billES& [last version of the bill exercise, using ES6 and 'classes']
+- project 43 - get and set [pseudoproperties of get and set]
 
 ## Others
 
