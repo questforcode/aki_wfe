@@ -79,6 +79,7 @@ This is my **Web Front End** development project and learning process repository
 ## Javascript Web
 
 - project 1 - hello js [first basic js in html]
+- project 2 - hello better [getting rid of all the JS in the index file]
 
 ## Others
 
