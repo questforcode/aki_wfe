@@ -21,7 +21,6 @@ let bill = {
     paymentMethod: 'Cash',
     calculateTotal: function () {
         let tax = this.taxType < 1 ? 1+this.taxType : this.taxType
-        console.log(tax)
         return this.items.map(item => item.price * item.quantity).reduce((a,b) =>a+b)*tax
     },
     refreshTotal: function () {
@@ -29,9 +28,10 @@ let bill = {
     },
     showTotal: function () {
         this.refreshTotal()
-        let msg = `The total price with tax included is ` + this.total + ` Euros.`
+        let msg = `The total price with tax included is ` + this.calculateTotal() + ` Euros.`
         console.log(msg)
     }
 }
 
 bill.showTotal()
+
