@@ -82,8 +82,8 @@ This is my **Web Front End** development project and learning process repository
 - project 2 - hello better [getting rid of all the JS in the index file]
 - project 3 - hello modern [modernizing the code in 3]
 - project 4 - hello ES6 [ultra modernizing the code in es6]
-- project 5 - interactive ES6 [making an interactive user input with ES6]
-- project 6 - interactive [making an interactive user input without ES6]
+- project 5 - interactive ES6 [making an interactive user input with ES6 classes]
+- project 6 - interactive ES6B [making an interactive user input with ES6 regular functions
 
 ## Others
 
