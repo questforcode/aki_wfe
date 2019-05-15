@@ -84,6 +84,7 @@ This is my **Web Front End** development project and learning process repository
 - project 4 - hello ES6 [ultra modernizing the code in es6]
 - project 5 - interactive ES6 [making an interactive user input with ES6 classes]
 - project 6 - interactive ES6B [making an interactive user input with ES6 regular functions
+- project 7 - double bind [learning the double binding functions of modules]
 
 ## Others
 
