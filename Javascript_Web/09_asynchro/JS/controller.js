@@ -33,7 +33,7 @@ export function controller () {
 
     function readData () {
         let i
-        //synchronous reading
+        //synchronous reading. doesn't exist when servers are involved.
         //i = 33
         //asynchronous reading
         setTimeout(() => {
