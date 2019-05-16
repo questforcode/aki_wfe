@@ -87,6 +87,8 @@ This is my **Web Front End** development project and learning process repository
 - project 7 - double bind [learning the double binding functions of modules]
 - project 8 - show [showing and hiding things using javascript]
 - project 9 - asynchro [using asynchrony inside of javascript]
+- project 10 - callbacks [callbacks in use]
+- project 11 - promises [fixing callback hell with promises]
 
 ## Others
 
