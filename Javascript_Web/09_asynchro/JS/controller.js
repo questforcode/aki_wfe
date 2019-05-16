@@ -35,6 +35,7 @@ export function controller () {
         let i
         //synchronous reading
         //i = 33
+        //asynchronous reading
         setTimeout(() => {
             i = 33
             showData()
