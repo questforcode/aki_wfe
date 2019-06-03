@@ -89,7 +89,10 @@ This is my **Web Front End** development project and learning process repository
 - project 9 - asynchro [using asynchrony inside of javascript]
 - project 10 - callbacks [callbacks in use]
 - project 11 - promises [fixing callback hell with promises]
+- project 12 - restart [refreshing our JS after two weeks without it]
+- project 13 - accordion [structuring things]
 
 ## Others
 
 - cvweb - basic HTML and CSS profile for Link from Legend of Zelda.
+- nisproject - business challenge landing web page
