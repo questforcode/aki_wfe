@@ -1,0 +1,21 @@
+.control-group label,
+.control-group input {
+    display: block;
+}
+
+.control-group label {
+    margin-top: 1rem;
+
+}
+
+.control-group input {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    line-height: 1.2rem;
+    background-color: coral;
+}
+
+section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
