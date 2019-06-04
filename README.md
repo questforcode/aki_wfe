@@ -91,7 +91,8 @@ This is my **Web Front End** development project and learning process repository
 - project 11 - promises [fixing callback hell with promises]
 - project 12 - restart [refreshing our JS after two weeks without it]
 - project 13 - accordion [structuring things]
-- project 14 -social links [a joke social links page]
+- project 14 - social links [a joke social links page]
+- project 15 - animals [list of animals that can be filled by the user]
 
 ## Others
 
