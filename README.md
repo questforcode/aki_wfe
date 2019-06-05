@@ -93,6 +93,7 @@ This is my **Web Front End** development project and learning process repository
 - project 13 - accordion [structuring things]
 - project 14 - social links [a joke social links page]
 - project 15 - animals [list of animals that can be filled by the user]
+- project 16 - forms [learning to manage forms through javascript]
 
 ## Others
 
