@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    background-image: url(../assets/webbackground.png);
+    background-position: top;
+    background-size: cover;
+    min-width: 900px;
 }
 
 .header {
@@ -36,16 +40,14 @@ body {
 }
 
 .main1 {
-    margin-top: 7vh;
-    background-color: white;
-    height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .main1 h1 {
-    margin-top: 10vh;
+    padding-top: 10vh;
     margin-bottom: 0;
     font-size: 3.5rem;
     font-weight: 100;
@@ -82,8 +84,7 @@ body {
     border-radius: 10px;
 }
 .main2 {
-    background-color: rgb(254, 238, 0);
-    height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,8 +134,7 @@ body {
 }
 
 .main3 {
-    background-color: white;
-    height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,14 +165,14 @@ body {
 }
 
 .main4{
-    background-color: rgb(254, 238, 0);
-    height: 100vh;
+    min-height: 100vh;
+    margin-bottom: 5rem;
 }
 
 .main4 h1 {
     padding-top: 5rem;
     margin-left: 15rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     font-style: italic;
     font-weight: 600;
     text-transform: uppercase;
@@ -181,15 +181,97 @@ body {
 }
 
 .grupo {
-    width: 100%;
+    width: 60%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 20%;
+}
+
+.grupo div:nth-of-type(1),
+.grupo div:nth-of-type(2) {
+    width: 20%;
+    padding: 1rem;
+}
+
+.grupo div:nth-of-type(3),
+.grupo div:nth-of-type(4) {
+    width: 25%;
+    padding: 1rem;
+}
+
+.grupo h2 {
+    font-size: 1rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+div p {
+    font-size: 0.8rem;
+}
+
+.bottom-media-1 {
+    width: 62%;
+}
+
+.bottom-media-2 {
+    width: 50%;
+}
+
+.bottom-media-3 {
+    width: 40%;
+}
+
+.bottom-media-4 {
+    width: 42%;
 }
 
 .grupo div {
-    width: 20%;
-    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlace {
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(102, 217, 191);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(85, 84, 99);
+    font-size: 1rem;
+}
+
+.space:nth-of-type(4) {
+    padding-bottom: 0.2rem;
+}
+
+.space:nth-of-type(3) {
+    padding-bottom: 3.4rem;
+}
+
+.space:nth-of-type(1) {
+    padding-bottom: 12.5rem;
+}
+
+footer {
+    width: 60%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+
+.fab {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.angaraveca {
+    width: 30%;
 }
