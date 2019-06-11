@@ -22,8 +22,8 @@ export function controller () {
     selectGeneros.innerHTML = html
 
     function onChangeGenero(ev) {
-        let i = ev.target.selectedIndex
-        let aAutores = aGeneros[i].autores
+        let iGenero = ev.target.selectedIndex
+        let aAutores = aGeneros[iGenero].autores
         let html = '<option value=""></option>'
         
         aAutores.forEach ( item => { 
