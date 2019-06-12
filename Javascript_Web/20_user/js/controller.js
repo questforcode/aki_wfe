@@ -6,6 +6,7 @@ export function controller() {
     //initializer
 
     const url = 'https://randomuser.me/api/'
+    //random user api ?/users=[number of users you want]. would have to create a loop.
 
     //nodes
 
@@ -37,6 +38,7 @@ export function controller() {
         let bigimage = data.results[0].picture.large
         let userName = data.results[0].name
         let gender = data.results[0].gender
+        let email = data.results[0].email
 
         if (gender == 'male') {
            gender = 'man'
@@ -48,8 +50,9 @@ export function controller() {
 
         output.innerHTML = `
         <figure>
-        <figcaption class="${gender}">${userName.title} ${userName.first} ${userName.last} <i class="fas fa-envelope-square"></i></figcaption>
+        <figcaption class="${gender}">${userName.title} ${userName.first} ${userName.last}</figcaption>
         <a href="${bigimage}"><img src="${image}" alt ="User Image"> </a>
+        <a class="fas fa-envelope-square" href="mailto://${email}"></a>
        </figure>
       `
 
