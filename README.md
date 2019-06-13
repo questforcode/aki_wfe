@@ -94,6 +94,11 @@ This is my **Web Front End** development project and learning process repository
 - project 14 - social links [a joke social links page]
 - project 15 - animals [list of animals that can be filled by the user]
 - project 16 - forms [learning to manage forms through javascript]
+- project 16b - custom forms [making the submit form custom]
+- project 17 - images [dynamic images with JS]
+- project 18 - dynamic forms [forms that change depending on other things]
+- project 19 - apiphotos [working a 'portfolio' with apis]
+- project 20 - users [bringing up random users using apis]
 
 ## Others
 
