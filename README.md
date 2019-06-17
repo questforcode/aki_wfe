@@ -99,6 +99,8 @@ This is my **Web Front End** development project and learning process repository
 - project 18 - dynamic forms [forms that change depending on other things]
 - project 19 - apiphotos [working a 'portfolio' with apis]
 - project 20 - users [bringing up random users using apis]
+- project 21 - BOM [understanding the browser objects modules]
+- project 22 - scroll [learning to do spy scrolling and sticky headers]
 
 ## Others
 
