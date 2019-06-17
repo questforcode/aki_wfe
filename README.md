@@ -102,6 +102,10 @@ This is my **Web Front End** development project and learning process repository
 - project 21 - BOM [understanding the browser objects modules]
 - project 22 - scroll [learning to do spy scrolling and sticky headers]
 
+##TypeScript
+
+- project 1 - hello world [hello world by using typescript]
+
 ## Others
 
 - cvweb - basic HTML and CSS profile for Link from Legend of Zelda.
