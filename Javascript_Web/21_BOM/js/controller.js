@@ -1,18 +1,45 @@
-export function controller () {
-    console.log('Controller Loaded')
+export function controller() {
+    console.log('Controller cargado')
 
-    const btnTest = document.querySelector('#btn-test')
+    const btnProbar = document.querySelector('#btnProbar')
 
-    btnTest.addEventListener('click', onClickTest)
+    btnProbar.addEventListener('click', onClickProbar)
 
-    function onClickTest () {
-        //window.alert()
-        //window.prompt()
-        //window.confirm()
+    document.querySelector('#btnLocalizar').addEventListener('click', onClick)
 
-        let x = window.open()
 
-        //Set timeout is part of window as well. its not necessary to write window.
-       console.log(x)
+    async function onClick() {
+        let position = await localizar()
+        console.log(position)
+    }
+
+
+    function onClickProbar() {
+        // window.alert('Probando')
+        // window.prompt('Probando')
+        // window.confirm('Probando')
+
+        let handler = window.open()
+        handler.location.assign('http://google.com')
+        window.setTimeout(() => {
+            // handler.close()
+        }, 2000)
+        console.log(handler)
+
+        let handTime = setTimeout(() => { }, 2000)
+        clearTimeout(handTime)
+
+        let handInterval = setInterval(() => { }, 10)
+        clearInterval(handInterval)
+    }
+
+
+    function localizar() {
+        return new Promise((resolve, reject) => {
+            navigator.geolocation.getCurrentPosition((position) => {
+                resolve(position)
+            })
+        })
+
     }
 }
