@@ -105,6 +105,7 @@ This is my **Web Front End** development project and learning process repository
 ##TypeScript
 
 - project 1 - hello world [hello world by using typescript]
+- project 2 - types [types in typescript]
 
 ## Others
 
