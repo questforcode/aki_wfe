@@ -106,6 +106,9 @@ This is my **Web Front End** development project and learning process repository
 
 - project 1 - hello world [hello world by using typescript]
 - project 2 - types [types in typescript]
+- project 3 - classes [classes in typescript]
+- project 4 - interface [understanding interfaces]
+- project 5 - constructors [simplifying constructors by using typescript]
 
 ## Others
 
