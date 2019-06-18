@@ -1,7 +1,7 @@
 class Person { 
-    name
-    age
-    food
+    name //public property by default. parent AND child classes can access it. 
+    protected age: number
+    private food: boolean //can be used by the parent class but not the child classes. 
     constructor(name, age, food) { 
         this.name = name
         this.age = age
@@ -22,7 +22,7 @@ console.log(person1)
 person1.salute()
 
 class Student extends Person {
-    course
+    course: string
  constructor (name, age, food, course) {
      super(name, age, food)
      this.course = course
