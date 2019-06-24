@@ -5,21 +5,19 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent implements OnInit  {
 
-  author: string;
-  date: Date;
-  company: string;
-
+  autor: string;
+  empresa: string;
+  fecha: Date;
 
   constructor() {
-
-  }
+   }
 
   ngOnInit() {
-    this.author = 'Aki';
-    this.company = 'CIFE - Fuenlabrada';
-    this.date = new Date();
+    this.autor = 'Aleajndro Cerezo';
+    this.empresa = 'CIFE - Fuenlabrada';
+    this.fecha = new Date();
   }
 
 }

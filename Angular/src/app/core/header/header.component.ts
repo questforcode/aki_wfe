@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.title = 'Angular - CIFE';
+    this.title = 'Angular-CIFE';
   }
 
 }
