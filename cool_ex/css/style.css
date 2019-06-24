@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Gaegu', cursive;
+    font-weight: normal;
+    font-size: 3rem;
+    color:rgb(224, 175, 184);
+    border: 10px solid black;
+    border-image: url(../assets/border.png) 12% round;
+    border-image-repeat: repeat;
+    display: inline-block;
+    padding: 0 2rem;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-family: 'Gentium Basic', serif;
+    font-weight: normal;
+    color: rgb(148, 128, 128);
+    font-size: 1.2rem;
+}
+
+.score {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center
+}
+
+.flex1 h2, .flex2 h2 {
+    font-family: 'Gaegu', cursive;
+    color: rgb(224, 175, 184);
+    margin-bottom: 0;
+}
+
+.output {
+    font-family: 'Gentium Basic', serif;
+    font-size: 1.3rem;
+    color: rgb(148, 128, 128);
+}
+
+.startd {
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    border: none;
+    padding: 0.5rem 4rem;
+    background-color: rgb(224, 175, 184);
+    font-family: 'Gaegu', cursive;
+    color: white;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.colors {
+    display: flex;;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.color {
+    border: none;
+    font-family: 'Gentium Basic', serif;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(148, 128, 128);;
+    flex-basis: 100%;
+    text-align: center;
+    height: 40vh;
+
+}
+
+.blue {
+    background-color: rgb(187, 212, 233);
+}
+
+.red {
+    background-color: rgb(230, 120, 120);
+}
+
+.yellow {
+    background-color: rgb(248, 248, 108);
+}
+
+.green {
+    background-color: rgb(162, 253, 162);
+}
+
+.pink {
+    background-color: rgb(236, 194, 189);
+}
+
+.orange {
+    background-color: rgb(235, 199, 133);
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question {
+    font-family: 'Gaegu', cursive;
+    color:rgb(224, 175, 184);
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.winlose {
+    font-family: 'Gentium Basic', serif;
+    color: rgb(148, 128, 128);
+    font-size: 1.2rem;
+}

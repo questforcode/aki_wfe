@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <script src="./js/bootstrap.js" type = "module"></script>
+    <script src="./js/bootstrap.js" type="module"></script>
+
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu|Gentium+Basic+SC&display=swap" rel="stylesheet">
 
     <title>Guessing Game</title>
 
-    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -20,34 +23,41 @@
     </header>
 
     <section class="score">
-        <h2>Score</h2>
-        <output id="score">
-            0
-        </output>
 
-        <h2>Time Left</h2>
-        <output id="time">
-            00:00
-        </output>
+        <div class="flex1">
+            <h2>Score</h2>
+            <output id="score" class="output">
+                0
+            </output>
+        </div>
+
+        <div class="flex2">
+            <h2>Time Left</h2>
+            <output id="time" class="output">
+                00:00
+            </output>
+        </div>
+
     </section>
 
-    <div>
-        <button type="button" id="start">Start</button>
+    <div class="startd">
+        <button type="button" id="start" class="start">Start</button>
+        <button type="button" id="refresh" class="start">Refresh</button>
     </div>
 
 
     <section class="colors">
-        <button id="blue" class="blue color">Blue</div>
-        <button id="red" class="red color">Red</div>
-        <button id="yellow" class="yellow color">Yellow</div>
-        <button id= "green" class="geen color">Green</div>
-        <button id= "pink" class="pink color">Pink</div>
-        <button id= "orange" class="orange color">Orange</div>
+        <button type="button" id="blue" class="blue color">Blue</button>
+        <button type="button" id="red" class="red color">Red</button>
+        <button type="button" id="yellow" class="yellow color">Yellow</button>
+        <button type="button" id="green" class="green color">Green</button>
+        <button type="button" id="pink" class="pink color">Pink</button>
+        <button type="button" id="orange" class="orange color">Orange</button>
     </section>
 
-    <output id="result">
-        <p>Did you win or did you lose?</p>
-        <p id="winlose"></p>
+    <output id="result" class="result">
+        <p class="question">Did you win or did you lose?</p>
+        <p id="winlose" class="winlose"></p>
     </output>
 </body>
 

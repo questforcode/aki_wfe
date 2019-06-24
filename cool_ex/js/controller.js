@@ -7,6 +7,7 @@ export function controller() {
     let winlose = document.querySelector('#winlose')
 
     let btnStart = document.querySelector('#start')
+    let btnRefresh = document.querySelector('#refresh')
 
     let blue = document.querySelector('#blue')
     let red = document.querySelector('#red')
@@ -16,16 +17,19 @@ export function controller() {
     let orange = document.querySelector('#orange')
 
     //handler
-    //por alguna razón no he conseguido hacerlo con el queryselectorall, me gustaría cambiar eso.
+
 
     btnStart.addEventListener('click', onStart)
+    btnRefresh.addEventListener('click', onRefresh)
+
+    //por alguna razón no he conseguido hacerlo con el queryselectorall, me gustaría cambiar eso.
     blue.addEventListener('click', onClick)
     red.addEventListener('click', onClick)
     yellow.addEventListener('click', onClick)
     green.addEventListener('click', onClick)
     pink.addEventListener('click', onClick)
     orange.addEventListener('click', onClick)
-    
+
 
     //timer functions
 
@@ -41,13 +45,15 @@ export function controller() {
         countdown = setInterval(() => {
             const whatLeft = Math.round((later - Date.now()) / 1000)
 
-            if (whatLeft < 0 && score >= 10) {
+            if (whatLeft > 0 && score >= 10) {
                 clearInterval(countdown)
-                youWon()
+                winlose.innerHTML = `You've won the game!`
+                playWin()
                 return
             } else if (whatLeft < 0 && score < 10) {
                 clearInterval(countdown)
-                youLost()
+                winlose.innerHTML = `You've lost the game!`
+                playLost()
                 return
             }
             showTime(whatLeft)
@@ -63,36 +69,54 @@ export function controller() {
     }
 
     function onStart() {
-        timer(2)
+        playClick()
+        timer(90)
     }
 
     let score = 0
 
-    function youLost() {
-        winlose.innerHTML = `You've lost the game!`
-        clearInterval(countdown)
-    }
-
-    function youWon() {
-        winlose.innerHTML = `You've won the game!`
-    }
-
     //actual game
 
-    const colors = ['blue', 'red', 'yellow', 'green', 'pink', 'orange']
-
-    function randomColor(colors) {
-        return colors[Math.floor(Math.random() * colors.length)]
-    }
-
     function onClick(ev) {
-        randomColor(colors)
-        console.log(randomColor(colors))
-        if (randomColor(colors) === ev.target.id) {
+        playClick()
+        const colors = ['blue', 'red', 'yellow', 'green', 'pink', 'orange']
+        let random = colors[Math.floor(Math.random() * colors.length)]
+        //dejo los console para que se pueda comprobar que funciona
+        //console.log(random)
+        //console.dir(ev.target.id)
+        if (random === ev.target.id) {
             score++
         }
 
         readScore.innerHTML = `${score}`
+    }
+
+    function onRefresh () {
+        playClick()
+        score = 0
+        readScore.innerHTML = `0`
+        clearInterval(countdown)
+        time.innerHTML = `00:00`
+    }
+
+    //sonidos
+
+    function playClick() {
+        const click = new Audio()
+        click.src = './assets/click.wav'
+        click.play()
+    }
+
+    function playWin() {
+        const win = new Audio()
+        win.src = './assets/win.wav'
+        win.play()
+    }
+
+    function playLost() {
+        const lost = new Audio()
+        lost.src = './assets/lose.wav'
+        lost.play()
     }
 
 }
