@@ -1,6 +1,6 @@
-import { factorial } from './prueba';
+import { factorial, isEven } from './prueba';
 
-fdescribe('Aprendiendo jasmine', () => {
+xdescribe('Factorial function...', () => {
 
     it('should be 1 if n=1', () => {
         const n = 1;
@@ -28,3 +28,33 @@ fdescribe('Aprendiendo jasmine', () => {
 
 
 });
+
+xdescribe ('Function isEven...', () => {
+    it('should be even if n = 20', () => {
+        expect(isEven(20)).toBeTruthy()
+    })
+
+    it('should be not even if n = 23', () => {
+        expect(isEven(23)).toBeFalsy()
+    })
+
+    it('should be even if n = 0', () => {
+        expect(isEven(0)).toBeTruthy()
+    })
+
+    it('should be even if n = -20', () => {
+        expect(isEven(-20)).toBeTruthy()
+    })
+
+    it('should be not even if n = -23', () => {
+        expect(isEven(-23)).toBeFalsy()
+    })
+
+    it('should throw error if n = 3.5', () => {
+        expect( () => isEven.bind(3.5) ).toThrowError('The value is a decimal number!')
+    })
+
+    //no need to check rest of errors as they're type errors and the program already knows is dumb.
+
+})
+
