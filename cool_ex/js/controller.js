@@ -24,6 +24,7 @@ export function controller() {
     btnRefresh.addEventListener('click', onRefresh)
 
     //por alguna razón no he conseguido hacerlo con el queryselectorall, me gustaría cambiar eso.
+    //no functiona cuando lo muevo a la función. lo dejo así de momento.
     blue.addEventListener('click', onClick)
     red.addEventListener('click', onClick)
     yellow.addEventListener('click', onClick)
