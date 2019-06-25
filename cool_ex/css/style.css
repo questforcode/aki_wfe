@@ -23,7 +23,8 @@ header h1 {
     margin-bottom: 0;
 }
 
-header h2 {
+header h2,
+header p {
     font-family: 'Gentium Basic', serif;
     font-weight: normal;
     color: rgb(148, 128, 128);

@@ -5,6 +5,7 @@ export function controller() {
     let time = document.querySelector('#time')
     let readScore = document.querySelector('#score')
     let winlose = document.querySelector('#winlose')
+    let thinking = document.querySelector('#thinking')
 
     let btnStart = document.querySelector('#start')
     let btnRefresh = document.querySelector('#refresh')
@@ -89,6 +90,8 @@ export function controller() {
         }
 
         readScore.innerHTML = `${score}`
+        thinking.innerHTML = `${random}!`
+        
     }
 
     function onRefresh () {
@@ -97,6 +100,7 @@ export function controller() {
         readScore.innerHTML = `0`
         clearInterval(countdown)
         time.innerHTML = `00:00`
+        thinking.innerHTML = ``
     }
 
     //sonidos
